@@ -1,0 +1,22 @@
+.faculty-profile {
+  background-image: url('faculty-bg-0fd668b6.jpg');
+  background-repeat: no-repeat;
+  height: 325px;
+}
+.faculty-profile p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+.img-no-padding {
+  padding-left:0;
+  padding-right:0;
+}
+.bold-name{
+  font-weight: bold;
+}
+
+@media screen and (max-width:768px) {
+	.blue-bg {background-color:#092c74;}
+	.faculty-profile {background-image:none;}
+  img {background: #092c74;}/*newly added*/
+}

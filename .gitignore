@@ -1,0 +1,4 @@
+.idea
+.cache
+src/node_modules
+src/lib/credentials.js

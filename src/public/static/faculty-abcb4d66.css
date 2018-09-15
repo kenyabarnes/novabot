@@ -1,0 +1,32 @@
+.faculty-profile-container {
+  margin: 20px 0;
+}
+
+.faculty-profile {
+  background-image: url('faculty-bg-0fd668b6.jpg');
+  background-repeat: no-repeat;
+  height 325px;
+}
+
+.faculty-profile-info {
+  position: absolute;
+  top:0;
+  padding-top: 20px;
+}
+
+.faculty-profile-info p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+hr{
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  border: 1px solid #fff;
+}
+
+img {
+  max-width: 100%;
+  height:auto;
+}

@@ -1,0 +1,48 @@
+.faculty-profile {
+  background-image: url('faculty-bg-0fd668b6.jpg');
+  background-repeat: no-repeat;
+  height: 325px;
+}
+.faculty-profile p {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.img-no-padding {padding-left:0;padding-right:0;}
+
+@media screen and (max-width:768px) {
+	.blue-bg {background-color:#092c74;}
+	.faculty-profile {background-image:none;}
+  img {background: #092c74;}/*newly added*/
+}
+@media screen and (max-width: 480px) {
+    .nav {
+        padding-left:2px;
+        padding-right:2px;
+    }
+    .nav li {
+        display:block !important;
+        width:100%;
+        margin:0px;
+    }
+    .nav li.active {
+        border-bottom:1px solid #ddd!important;
+        margin: 0px;
+    }
+	.nav-tabs>li>a {
+		font-size:17px;
+	}
+	.faculty-profile {
+    	background-image: none;
+		background-color:#092c74;
+	}
+	.faculty-profile-info {
+		position:relative;
+	}
+	.blue-bg {
+	background-color:#092c74;
+	}
+  img {
+    background: #092c74; /*new*/
+  }
+}
