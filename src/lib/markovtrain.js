@@ -1,10 +1,10 @@
 'use strict';
-
+const fs = require('fs');
+const file =JSON.parse(fs.readFileSync('./result.json', 'utf8'));
 
 
 let start = async function(){
-    const fs = require('fs');
-    const file =JSON.parse(fs.readFileSync('./result.json', 'utf8'));
+    
 
     let model = {
         'START': [],
@@ -66,4 +66,4 @@ function populate(){
 
 }
 
-module.exports = start();
+module.exports = start;
